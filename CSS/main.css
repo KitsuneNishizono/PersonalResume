@@ -1,0 +1,102 @@
+/*Título*/
+.top-bar{
+    position: fixed;
+    text-align: center;
+    background-color: #ffd3b6;
+    width:100%;
+    z-index: 10;
+}
+
+.top-bar h1{
+    margin:0;
+}
+#container{
+    max-width: 1800px;
+    overflow: hidden;
+    max-height: 100%;
+}
+/*Menú izquierdo*/
+.menu{
+    width:50%;
+    height: 100%;
+    background-color: #ffd3b6;
+    position: fixed;
+    margin-top:36px;
+}
+
+.menu div{
+    height:33.33%
+}
+
+.link{
+    height:30%;
+    width:35%;
+    background-color: #a8e6cf;
+    border:2px solid #32453e;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link a{
+    text-decoration: none;
+    color: #32453e;
+    font-size: 3vh;
+} 
+
+#top{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#center p{
+    margin: auto;
+    text-align: center;
+    font-size: 3vh;
+}
+
+#bottom{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+img{
+    width: 30%;
+    border-radius: 50%;
+    overflow: hidden;
+    border:2px solid black;
+    position: relative;
+    margin:auto;
+    display: block;
+    
+}
+/*información derecha*/
+#informacion{
+    width:50%;
+    height: 100%;
+    margin-top:2%;
+    background-color: #ffd3b6;
+    position: relative;
+    float: right;
+    padding-bottom: 15%;
+    
+}
+.informacionBasica img{
+    width: 5%;
+    display: flex;
+    float: left;
+}
+h3{
+padding-top: 7%;
+}
+input{
+    border-radius: 6px;
+}
+#comentarios{
+    width:50%;
+    height:25%;
+    border-radius: 6px;
+}
