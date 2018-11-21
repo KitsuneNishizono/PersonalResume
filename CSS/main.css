@@ -95,6 +95,10 @@ padding-top: 7%;
 input{
     border-radius: 6px;
 }
+
+input:hover{
+    background-color: #a8e6cf;
+}
 #comentarios{
     width:50%;
     height:25%;
